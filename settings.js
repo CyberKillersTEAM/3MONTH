@@ -16,9 +16,9 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94766632281",
-  SUDO_NUMBERS : "94781658861,94766632281",
-  OWNER_NAME: "Mʀ Mᴀᴄᴛʀɪx",
+  OWNER_NUMBER: "94705059690",
+  SUDO_NUMBERS : "94705059690,94766632281",
+  OWNER_NAME: "Ravindu",
   BOT_NAME : "ＺＵＳＹＣＯ",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
@@ -27,13 +27,13 @@ module.exports = {
     GOODBYE: 'https://telegra.ph/file/df7d8e58bc16ab42900da.jpg'
   },
   STOP_SEND : {
-        WELCOME_MESSAGE : false,
+        WELCOME_MESSAGE : true,
         GOODBYE_MESSAGE : true
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
-  WORK_TYPE : "public",
-  WORK_MODE : "onlygroups",
+  WORK_TYPE : "private",
+  WORK_MODE : "onlyinbox",
   WORK_MODE_MESSAGE_SEND : false,
   CAPTION : '*々 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʏʙᴇʀᴋɪʟʟᴇʀꜱᴛᴇᴀᴍ*',
   STICKER_PACK : '[ ZUSYCO ]',
@@ -48,11 +48,11 @@ module.exports = {
         NOT_WORKING : false,
   },
   READ : {
-     ALL_MESSAGES : true,
-     ONLY_COMMANDS : false,
+     ALL_MESSAGES : false,
+     ONLY_COMMANDS : true,
      STATUS : true,
   },
-  BOT_OFFLINE : false,
+  BOT_OFFLINE : true,
   INBOX_BLOCK : false,
   AUTO_REACT : false,
   OWNER_REACT : '🕵️‍♂️',
